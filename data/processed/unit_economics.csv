@@ -1,0 +1,4 @@
+scenario,price_rub,daily_prints,ad_partners,partner_fee_month_rub,variable_cost_rub,fixed_cost_month_rub,capex_rub,days_per_month,monthly_print_revenue,monthly_ad_revenue,monthly_variable_cost,monthly_profit_before_tax,breakeven_daily_prints,payback_months
+conservative,590,25,3,10000,125,380000,520000,30,442500,30000,93750,-1250,25.1,
+base,590,45,5,12000,125,380000,520000,30,796500,60000,168750,307750,22.9,1.7
+optimistic,690,75,8,15000,125,420000,600000,30,1552500,120000,281250,971250,17.7,0.6

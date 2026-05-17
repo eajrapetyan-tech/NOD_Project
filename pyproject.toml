@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "save-you-in-history"
+version = "0.1.0"
+description = "Data-science research project for the Save you in history tourism souvenir concept"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.setuptools.packages.find]
+where = ["src"]
